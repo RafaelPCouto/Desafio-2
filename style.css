@@ -3,8 +3,13 @@
     padding: 0;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+}
+
 h2 {
     font-weight: bolder;
+    margin: 20px 0;
 }
 
 .header {
@@ -14,6 +19,7 @@ h2 {
     justify-content: space-between;
     padding-left: 56px;
     padding-right: 69px;
+    align-items: center;
 }
 
 .header__nav-list {
@@ -23,4 +29,13 @@ h2 {
 
 li:last-child {
     margin-left: 45px;
+}
+
+.section--1 {
+    display: flex;
+}
+
+.section__image {
+    width: 255px;
+    height: 197px;
 }
