@@ -37,32 +37,36 @@
 
                 <div class="form__input">
 
-                    <label for="firstName">Primeiro nome:</label>
+                    <label for="firstName" class="form__label">Primeiro nome:</label>
                     <input type="text" name="firstName" id="firstName" placeholder="Insira seu primeiro nome">
 
                 </div>
 
                 <div class="form__input">
 
-                    <label for="email">E-mail:</label>
+                    <label for="email" class="form__label">E-mail:</label>
                     <input type="text" name="email" id="email" placeholder="Insira seu e-mail">
 
                 </div>
 
                 <div class="form__input">
 
-                    <label for="cep">Digite o CEP:</label>
+                    <label for="cep" class="form__label">Digite o CEP:</label>
                     <input type="text" name="cep" id="cep" placeholder="Insira o CEP">
 
                 </div>
 
                 <div class="form__input">
 
-                    <label for="">Digite a latitude e longitude para saber a previsão:</label>
-                    <input type="text" name="latitude" id="latitude" placeholder="latitude">
-                    <input type="text" name="longitude" id="longitude" placeholder="longitude">
+                    <label for="" class="form__label">Digite a latitude e longitude para saber a previsão:</label>
+                    <div class="coordinations__container">
+                        <input type="text" name="latitude" id="latitude" placeholder="latitude" class="coordinations">
+                        <input type="text" name="longitude" id="longitude" placeholder="longitude" class="coordinations">
+                    </div>
 
                 </div>
+
+                <button type="submit" class="button">Acessar</button>
 
             </form>
         </section>
