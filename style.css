@@ -23,12 +23,8 @@ h1 {
 }
 
 input {
-    border-radius: 10px;
     border: none;
     background-color: #F2F2F2;
-    width: 630px;
-    font-size: 20px;
-    padding-left: 32px;
 }
 
 .header {
@@ -74,6 +70,7 @@ li:last-child {
     background-color: #fff;
     width: 859px;
     margin-top: 127px;
+    border-radius: 30px;
     /* text-align: center; */
 }
 
@@ -87,6 +84,21 @@ li:last-child {
     font-size: 25px;
     font-weight: 400;
     margin-bottom: 20px;
+}
+
+.input {
+    border-radius: 10px;
+    width: 630px;
+    font-size: 20px;
+    padding-left: 32px;
+    height: 50px;
+}
+
+.input-size {
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 32px;
+    height: 50px;
 }
 
 .coordinations__container {
@@ -108,6 +120,73 @@ li:last-child {
     font-size: 32px;
     font-weight: 600;
     padding: 9px 244px 8px 259px;
+}
+
+.section--3 {
+    margin-top: 400px;
+}
+
+.section--3--title {
+    font-weight: 800;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.container__adress {
+    display: flex;
+    border-radius: 30px 30px 0 0;
+    background-color: #0C70F2;
+    width: 1024px;
+    font-size: 20px;
+    color: #fff;
+    height: 72px;
+    align-items: center;
+}
+
+.paragraph--1 {
+    margin-left: 60px;
+}
+
+.paragraph--2 {
+    margin-left: 100px;
+}
+
+.paragraph--3 {
+    margin-left: 70px;
+}
+
+.container__results {
+    display: flex;
+    border-radius: 0 0 30px 30px;
+    width: 1024px;
+    font-size: 20px;
+    color: #1F1F1F;
+    background-color: #fff;
+    height: 90px;
+    align-items: center;
+}
+
+.paragraph--4 {
+    margin-left: 80px;
+}
+
+.paragraph--5 {
+    margin-left: 145px;
+}
+
+.paragraph--6 {
+    margin-left: 150px;
 }
 
 #firstName {
