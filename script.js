@@ -1,5 +1,3 @@
-
-
 async function getAdressByCep() {
     const cep = document.getElementById('cep').value;
     document.getElementById('logradouro').style.marginLeft = '50px';
@@ -19,3 +17,22 @@ async function getAdressByCep() {
 
 }
 
+async function getWeatherPredict() {
+    const lat = document.getElementById('latitude').value;
+    const long = document.getElementById('longitude').value;
+
+    try {
+        const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${long}&current=temperature_2m,wind_speed_10m&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m`);
+        const data = await response.json();
+        console.log(data)
+        document.getElementById('temperature').innerText = data.current.temperature_2m + 'ºC';
+
+    } catch(error) {
+        alert(error.message);
+    }
+}
+
+async function handleButtonClick() {
+    await getAdressByCep();
+    await getWeatherPredict();
+}
