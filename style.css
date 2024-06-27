@@ -19,7 +19,7 @@ h1 {
     font-size: 50px;
     color: #1F1F1F;
     width: 879px;
-    margin-top: 124px;
+    margin-top: 50px;
 }
 
 input {
@@ -56,7 +56,6 @@ li:last-child {
 .section__image {
     width: 255px;
     height: 197px;
-    margin-top: 75px;
 }
 
 .section--2 {
@@ -66,12 +65,11 @@ li:last-child {
 }
 
 .form {
-    padding-top: 104px;
+    padding-top: 50px;
     background-color: #fff;
     width: 859px;
-    margin-top: 127px;
+    margin-top: 100px;
     border-radius: 30px;
-    /* text-align: center; */
 }
 
 .form__input {
@@ -109,9 +107,9 @@ li:last-child {
 }
 
 .button {
-    margin-top: 99px;
+    margin-top: 60px;
     margin-left: 96px;
-    margin-bottom: 74px;
+    margin-bottom: 65px;
     width: 630px;
     background-color: #0C70F2;
     color: #fff;
@@ -129,7 +127,7 @@ li:last-child {
 }
 
 .section--3 {
-    margin-top: 400px;
+    margin-top: 200px;
 }
 
 .section--3--title {
@@ -208,7 +206,7 @@ li:last-child {
 .section--4-title {
     display: flex;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 100px;
     gap: 10px;
 }
 
@@ -230,7 +228,7 @@ li:last-child {
     font-weight: 600;
     font-size: 25px;
     color: #fff;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: end;
     font-size: 25px;
