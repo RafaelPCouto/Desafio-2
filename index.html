@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ZipCode Forecast</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,12 +14,18 @@
     <header class="header">
 
         <h2>DncWeather</h2>
+
         <nav class="header__nav">
+
             <ul class="header__nav-list">
+
                 <li>Endereços</li>
                 <li>Previsão do Tempo</li>
+
             </ul>
+
         </nav>
+
     </header>
 
     <main>
@@ -33,26 +39,46 @@
         </section>
 
         <section class="section section--2">
+
             <form action="" class="form">
 
                 <div class="form__input">
 
                     <label for="firstName" class="form__label">Primeiro nome:</label>
-                    <input type="text" name="firstName" id="firstName" class="input" placeholder="Insira seu primeiro nome">
+
+                    <input 
+                    type="text" 
+                    name="firstName" 
+                    id="firstName" 
+                    class="input" 
+                    placeholder="Insira seu primeiro nome">
 
                 </div>
 
                 <div class="form__input">
 
                     <label for="email" class="form__label">E-mail:</label>
-                    <input type="text" name="email" id="email" class="input" placeholder="Insira seu e-mail">
+
+                    <input 
+                    type="text" 
+                    name="email" 
+                    id="email" 
+                    class="input" 
+                    placeholder="Insira seu e-mail">
 
                 </div>
 
                 <div class="form__input">
 
                     <label for="cep" class="form__label">Digite o CEP:</label>
-                    <input type="text" name="cep" id="cep" class="input" placeholder="Insira o CEP">
+
+                    <input 
+                    type="text" 
+                    name="cep" 
+                    id="cep" 
+                    class="input" 
+                    placeholder="Insira o CEP"
+                    required>
 
                 </div>
 
@@ -61,8 +87,23 @@
                     <p class="form__label">Digite a latitude e longitude para saber a previsão:</p>
 
                     <div class="coordinations__container">
-                        <input type="text" name="latitude" id="latitude" class="input-size" placeholder="latitude" class="coordinations">
-                        <input type="text" name="longitude" id="longitude" class="input-size" placeholder="longitude" class="coordinations">
+                        <input 
+                        type="text" 
+                        name="latitude" 
+                        id="latitude" 
+                        class="input-size" 
+                        placeholder="latitude" 
+                        class="coordinations"
+                        required>
+
+                        <input 
+                        type="text" 
+                        name="longitude" 
+                        id="longitude" 
+                        class="input-size" 
+                        placeholder="longitude" 
+                        class="coordinations"
+                        required>
                     </div>
 
                 </div>
@@ -73,30 +114,43 @@
         </section>
 
         <section class="section section--3">
+
             <div class="section--3--title">
+
                 <h3>Resultado da busca por CEP:</h3>
                 <img src="images/icone-CEP.png" alt="cep-logo">
+
             </div>
 
             <div class="container">
+
                 <div class="container__adress">
+
                     <p class="paragraph--1">Logradouro/nome</p>
                     <p class="paragraph--2">Bairro/Distrito</p>
                     <p class="paragraph--3">Localidade/UF</p>
+
                 </div>
+
                 <div class="container__results">
+
                     <p class="paragraph--4" id="logradouro">Justino Cobra</p>
                     <p class="paragraph--5" id="bairro">Vila Ema</p>
                     <p class="paragraph--6" id="uf">SP</p>
+
                 </div>
+
             </div>
+
         </section>
 
         <section class="section section--4">
 
             <div class="section--4-title">
+
                 <h3>Previsão do tempo na região:</h3>
                 <img src="images/icone-nuvens.png" alt="clouds-logo">
+
             </div>
 
             <div class="section--4-output">
