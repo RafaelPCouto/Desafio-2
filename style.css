@@ -120,6 +120,12 @@ li:last-child {
     font-size: 32px;
     font-weight: 600;
     padding: 9px 244px 8px 259px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #0C70F2;
+    background-color: #1F1F1F;
 }
 
 .section--3 {

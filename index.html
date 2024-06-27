@@ -58,7 +58,8 @@
 
                 <div class="form__input">
 
-                    <label for="" class="form__label">Digite a latitude e longitude para saber a previsão:</label>
+                    <p class="form__label">Digite a latitude e longitude para saber a previsão:</p>
+
                     <div class="coordinations__container">
                         <input type="text" name="latitude" id="latitude" class="input-size" placeholder="latitude" class="coordinations">
                         <input type="text" name="longitude" id="longitude" class="input-size" placeholder="longitude" class="coordinations">
@@ -66,7 +67,7 @@
 
                 </div>
 
-                <button type="submit" class="button">Acessar</button>
+                <button type="button" class="button" onclick="getAdressByCep()">Acessar</button>
 
             </form>
         </section>
@@ -113,6 +114,8 @@
         <p class="footer__paragraph">Termos de Uso | Política de Privacidade</p>
 
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
