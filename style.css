@@ -27,6 +27,11 @@ input {
     background-color: #F2F2F2;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .header {
     background-color: #0C70F2;
     color: #fff;

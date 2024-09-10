@@ -12,7 +12,7 @@ async function getAdressByCep() {
         document.getElementById('bairro').innerText = data.bairro;
         document.getElementById('uf').innerText = data.uf;
     } catch (error) {
-        alert(error.message)
+        alert(`Revise o preenchimento dos campos (Erro: ${error.message})`)
     }
 
 }
@@ -28,7 +28,7 @@ async function getWeatherPredict() {
         document.getElementById('temperature').innerText = data.current.temperature_2m + 'ºC';
 
     } catch(error) {
-        alert(error.message);
+        alert(`Revise o preenchimento dos campos (Erro: ${error.message})`);
     }
 }
 
